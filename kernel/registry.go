@@ -12,12 +12,6 @@ type Registry interface {
 	Call()
 }
 
-// Service 定義了一個服務該有的功能。
-type Service interface {
-	// OnCall 表示服務至少也要能被核心呼叫。
-	OnCall(k Kernel)
-}
-
 // registry 會實作一個服務中心。
 type registry struct {
 	// kernel 是這個服務中心所屬的核心資訊。
