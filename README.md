@@ -1,4 +1,7 @@
-```
+* mykernel 實作了 kernel.Kernel 的定義。
+* 將服務 services.bird 與 .snake 註冊到 mykernel。
+
+```bash
 yamiodymel@OMEN:/mnt/c/Users/YamiOdymel/go/src/github.com/YamiOdymel/microkernel$ ./microkernel
 2020/04/29 16:09:03 成功註冊 bird 服務！
 2020/04/29 16:09:04 成功註冊 snake 服務！
