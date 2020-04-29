@@ -1,5 +1,6 @@
-* mykernel 實作了 kernel.Kernel 的定義。
-* 將服務 services.bird 與 .snake 註冊到 mykernel。
+* `mykernel` 實作了 `kernel.Kernel` 的定義。
+* `kernel.Kernel` 並不知道 `services`，但他內部有專門控管服務的 `kernel.Registry`。
+* 透過 `kernel.Registry` 將服務 `bird` 與 `snake` 註冊到 `mykernel`。
 
 ```bash
 yamiodymel@OMEN:/mnt/c/Users/YamiOdymel/go/src/github.com/YamiOdymel/microkernel$ ./microkernel
